@@ -6,7 +6,7 @@ function calc () {
 
     var x = [];
     for (var n = 0; n < N; n++) {
-        if (document.getElementById("arithmatic").checked) {
+        if (document.getElementById("arithmetic").checked) {
             x[n] = (parseInt(a) + (n*parseInt(r)));
         } else {
             x[n] = (parseInt(a) * (Math.pow(r,n)));
